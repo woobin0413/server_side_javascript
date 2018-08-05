@@ -1,0 +1,14 @@
+extends ../layout
+block content
+    article
+    h1= 'DO YOU WANT TO DELETE? ' + topic.title
+    //검색엔진할때 (add,delete,edit)할시 post방식으로해야한다 (NO LINK)
+    //컴퓨터한테 명령할떄 포스트방식
+    form(action='/topic/'+topic.id+'/delete' method='post')
+      p
+        input(type='submit' value='YES')
+      p
+        a(href='/topic/'+topic.id)
+          button(type='button') NO 
+      
+    
