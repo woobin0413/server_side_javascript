@@ -1,13 +1,6 @@
 # server_side_javascript
 Used Node.js, server side javascript, framework, module management, development of network application
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-One to two paragraph statement about your product and what it does.
-
-![](header.png)
 
 ## Installation
 
